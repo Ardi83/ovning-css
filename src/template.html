@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Headine News</title>
+</head>
+<body id="mashed">
+  <header class="header">
+    <h1>Headline News</h1>
+  </header>
+  <form class="search" name="form">
+    <input type="text" name="query" placeholder="Searching ...." aria-placeholder="Search for images…" required>
+    <button type="submit">Search</button>
+  </form>
+  <main>
+    <section class="results">
+      <div class="backLoader hide-loader">
+        <div class="loader spin hide-loader"></div>
+      </div>
+      <ul class="result">
+        <p class="result-text">Select a news category</br>OR</br> "search a word to show a picture</br> which maybe related to a news headline!!"</p>
+      </ul>
+    </section>
+    <aside>
+      <ul>
+        <li class ="general">
+          <button data-type="general" class="newsType">General</button>
+        </li>
+        <li class ="sport">
+          <button data-type="sports" class="newsType">Sport</button>
+        </li>
+        <li class ="tech">
+          <button data-type="technology" class="newsType">Technology</button>
+        </li>
+        <li class="science"> 
+          <button data-type="science" class="newsType">Science</button>
+        </li>
+        <li class="business"> 
+          <button data-type="business" class="newsType">Business</button>
+        </li>
+        <li class="health"> 
+          <button data-type="health" class="newsType">Health</button>
+        </li>
+        <li class="entertainment"> 
+          <button data-type="entertainment" class="newsType">Entertainment</button>
+        </li>
+        
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    No rights reserved, whatsoever - 2018 (and forever)
+  </footer>
+</body>
+</html>
